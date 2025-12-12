@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions>
+  <!-- Ejemplo: Suprimir una vulnerabilidad específica por CVE en un módulo -->
+  <suppress>
+    <moduleName>spring-web</moduleName>
+    <cve>CVE-2025-41234</cve>
+  </suppress>
+
+  <!-- Ejemplo: Suprimir todas las vulnerabilidades en una dependencia específica -->
+  <suppress>
+    <moduleName>logback-core</moduleName>
+  </suppress>
+
+  <!-- Ejemplo: Suprimir vulnerabilidades por paquete -->
+  <suppress>
+    <packageName>org.apache.tomcat.embed</packageName>
+  </suppress>
+</suppressions>
